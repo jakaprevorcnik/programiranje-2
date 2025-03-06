@@ -77,14 +77,12 @@ fn je_veljaven_datum ((dan, mesec, leto): Date) -> bool{
 // /// 4. Če ni, izberemo nov interval [a, b] glede na predznak f(c)
 // /// 5. Ponavljamo korake 2-4
 
- fn bisekcija(mut a: f64, mut b: f64, fun: fn(f64) -> f64, prec: f64) -> f64 {
-     let mut c = (a + b)/ 2;
-     while (fun(c)).abs() >= prec {
-        if fun (c) > 0 {
-            
-        }
-     }
- }
+//  fn bisekcija(mut a: f64, mut b: f64, fun: fn(f64) -> f64, prec: f64) -> f64 {
+//      let mut c = (a + b)/ 2;
+//      while (fun(c)).abs() >= prec {
+        
+//      }
+//  }
 
 // /// ------------------------------------------------------------------------------------------------
 
